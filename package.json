@@ -4,7 +4,7 @@
   "description": "",
   "main": "star.js",
   "scripts": {
-    "test": "jest --config jest.config.json",
+    "test": "jest --config jest.config.json --detectOpenHandles",
     "start": "node src/index.js",
     "build": "babel src --out-dir dist",
     "precommit": "pretty-quick --staged",
